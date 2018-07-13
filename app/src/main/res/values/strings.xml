@@ -10,7 +10,9 @@
 
     <!--Strings used for json request -->
     <string name="app_name">PopularMovies_Stage1_Retrofit</string>
-    <string name="api_key">e458f66b0b01b4aa807a9bba5e7ea6aa</string>
+
+    <!--Enter personal api key here-->
+    <string name="api_key">123456</string>
     <string name="base_url">https://api.themoviedb.org/3/</string>
     <string name="image_url">https://image.tmdb.org/t/p/w185//</string>
 
