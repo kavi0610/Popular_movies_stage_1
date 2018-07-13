@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_iv"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/thumbnail"
+            android:scaleType="centerCrop"
+            android:paddingBottom="50dp"
+            android:paddingTop="75dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/original_title"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"/>
+
+        <TextView
+            android:id="@+id/original_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/original_title"
+            android:textSize="18sp"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="30dp"
+            android:paddingStart="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/synopsis"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"/>
+
+        <TextView
+            android:id="@+id/plot_synopsis_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/synopsis"
+            android:textSize="18sp"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="30dp"
+            android:paddingStart="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rating"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"/>
+
+        <TextView
+            android:id="@+id/user_rating_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/rating"
+            android:textSize="18sp"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="30dp"
+            android:paddingStart="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/release_date"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"/>
+
+        <TextView
+            android:id="@+id/release_date_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/release_date"
+            android:textSize="18sp"
+            android:paddingLeft="30dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:paddingStart="30dp"/>
+    </LinearLayout>
+</ScrollView>
